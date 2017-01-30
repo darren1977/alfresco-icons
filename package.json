@@ -1,0 +1,22 @@
+{
+  "name": "alfresco-icons",
+  "version": "0.0.1",
+  "description": "Alfresco icons",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spotnape/alfresco-icons.git"
+  },
+  "keywords": [
+    "alfresco",
+    "icon",
+    "font",
+    "library"
+  ],
+  "author": "Alfresco Authors",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/spotnape/alfresco-icons/issues"
+  },
+  "homepage": "https://github.com/spotnape/alfresco-icons#readme"
+}
