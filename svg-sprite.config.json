@@ -1,0 +1,38 @@
+{
+    "dest": "assets",
+    "log": "info",
+    "shape": {
+        "dimension": {
+            "maxWidth": 500
+        }
+    },
+    "mode": {
+        "css": {
+            "dest": ".",
+            "sprite": "svg/alfresco.sprite.css.svg",
+            "render": {
+                "css": {
+                    "dest": "css/alfresco.sprite.css"
+                },
+                "scss": {
+                    "dest": "scss/alfresco.sprite.scss"
+                },
+                "less": {
+                    "dest": "less/alfresco.sprite.less"
+                }
+            },
+            "example": {
+                "dest": "example/alfresco.sprite.css.html"
+            },
+            "bust": false
+        },
+        "symbol": {
+            "dest": ".",
+            "sprite": "svg/alfresco.sprite.symbol.svg",
+            "example": {
+                "dest": "example/alfresco.sprite.symbol.html"
+            },
+            "bust": false
+        }
+    }
+}

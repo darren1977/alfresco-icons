@@ -1,0 +1,27 @@
+.svg-alfresco-flower {
+	background: url("../svg/alfresco.sprite.css.svg") 0 0 no-repeat;
+}
+
+.svg-alfresco-flower-dims {
+	width: 500px;
+	height: 500px;
+}
+
+.svg-alfresco-logo {
+	background: url("../svg/alfresco.sprite.css.svg") 100% 0 no-repeat;
+}
+
+.svg-alfresco-logo-dims {
+	width: 500px;
+	height: 140.58px;
+}
+
+.svg-alfresco-logo-grey {
+	background: url("../svg/alfresco.sprite.css.svg") 100% 39.11301541372212% no-repeat;
+}
+
+.svg-alfresco-logo-grey-dims {
+	width: 500px;
+	height: 140.58px;
+}
+

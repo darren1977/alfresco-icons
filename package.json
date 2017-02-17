@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/spotnape/alfresco-icons/issues"
   },
-  "homepage": "https://github.com/spotnape/alfresco-icons#readme"
+  "homepage": "https://github.com/spotnape/alfresco-icons#readme",
+  "devDependencies": {
+    "svg-sprite": "^1.3.6"
+  }
 }
