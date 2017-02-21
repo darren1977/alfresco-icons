@@ -29,7 +29,7 @@ You may need to make suitable build configurations for packaging tools such as s
 ### Usage
 
 ```
-<svg class="my-logo-class">
+<svg role="img" class="my-logo-class">
   <description>Alfresco Logo</description>
   <use xlink:href="path/to/alfresco.sprite.css.svg#svg-alfresco-flower"></use>
 </svg>

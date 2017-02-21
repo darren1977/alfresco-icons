@@ -1,0 +1,10 @@
+# https://docs.npmjs.com/misc/developers#keeping-files-out-of-your-package
+
+\.history/
+\.vscode/
+
+node_modules/
+raw_svgs/
+svg-sprite.config.json
+
+*.tgz
