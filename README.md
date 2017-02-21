@@ -1,8 +1,11 @@
 # Alfresco icons
 
+<!-- TOC depthFrom:2 -->
+
 - [Implementing Alfresco icons imagery in a project](#implementing-alfresco-icons-imagery-in-a-project)
     - [Installation](#installation)
     - [Usage](#usage)
+    - [Library images](#library-images)
 - [Adding to the image library](#adding-to-the-image-library)
     - [Installation](#installation-1)
     - [Adding new images to the generated sprite](#adding-new-images-to-the-generated-sprite)
@@ -10,9 +13,11 @@
     - [Pull requests](#pull-requests)
 - [License](#license)
 
+<!-- /TOC -->
+
 Alfresco icons is a library of Alfresco SVG imagery for use within Alfresco client applications.
 
-**Note:** This project is a work in progress and is not yet intended for production use.
+<span style="color:red">**Note:** This project is a work in progress and is not yet intended for production use.</span>
 
 ## Implementing Alfresco icons imagery in a project
 
@@ -31,9 +36,19 @@ You may need to make suitable build configurations for packaging tools such as s
 ```
 <svg role="img" class="my-logo-class">
   <description>Alfresco Logo</description>
-  <use xlink:href="path/to/alfresco.sprite.css.svg#svg-alfresco-flower"></use>
+  <use xlink:href="path/to/alfresco.sprite.css.svg#alfresco-flower"></use>
 </svg>
 ```
+
+### Library images
+
+Images currently available in the library can be seen here: 
+<a href="https://rawgit.com/spotnape/alfresco-icons/develop/assets/example/alfresco.sprite.css.html" 
+target="_blank">Image library previews</a>
+
+The entire image sprite currently looks like this:
+
+<img src="https://rawgit.com/spotnape/alfresco-icons/develop/assets/svg/alfresco.sprite.css.svg" style="width: 800px;">
 
 ## Adding to the image library
 
@@ -42,7 +57,7 @@ exported.
 
 ### Installation
 
-Clone the project to a directory of your choice and perform the usual npm command to install dev dependencies:
+Clone the git project to a directory of your choice and perform the usual npm command to install dev dependencies:
 
 ```
 npm install
